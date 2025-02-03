@@ -20,4 +20,5 @@ Está hecho sobre la marcha, es sencillo y no hice esquema
 
 ![circuito](circuito.jpg)
 ![circuitop2](circuito_p2.jpg)
-![esp32](esp32.jpg)
+[![esp32](esp32_miniatura.jpg)](esp32.jpg)
+
