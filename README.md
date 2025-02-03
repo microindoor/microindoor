@@ -14,5 +14,10 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-
 Microindoor permite crear un cultivo indoor a medida según los recursos de los que uno disponga, puedes utilizar relés para luz, resistencias eléctricas, o ventiladores de CA, o PWM y mosfets si esos aparatos funcionan con CC, termistores y no ventiladores si sólo vas a medir temperatura y no puedes regularla porque no tienes ventiladores, o termistores y si ventiladores si los tienes, o si consigues un dht22 puedes medir además humedad, y si tienes ventiladores puedes regular los 2 valores según los configures, las combinaciones y posibilidades son enormes. Puedes configurar y personalizar hasta un máximo de 3 salas y todo se hace por bluetooth.
+## Hardware, parte física
+Está hecho sobre la marcha, es sencillo y no hice esquema
+
+![circuito](circuito.jpg)
+![circuitop2](circuito_p2.jpg)
+![esp32](esp32.jpg)
