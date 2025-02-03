@@ -47,16 +47,16 @@ Materiales:
 1 placa 
 
 ### Podrían sobrar los mosfets y el 4n35, son opciones a mayores, el lm317 es el regulador para el vin (alimentación del esp32)
-![circuito](circuito.jpg)  
+![circuito](imag/circuito.jpg)  
 
 Para las conexiones el mismo cable rígido protoboard, pelado o sin pelar,
 según convenga
-![circuitop2](circuito_p2.jpg)
+![circuitop2](imag/circuito_p2.jpg)
 
 Es conveniente usar una placa de expansión para esp32
 
 
-![esp32](esp32.jpg)  
+![esp32](imag/esp32.jpg)  
 
 ### He creado 2 salas, cada una con sus ventajas e inconvenientes que veremos a continuación  
 
@@ -68,13 +68,13 @@ con la temperatura, probablemente sale más caro que comprar uno de espectro com
 Nota: el pequeño circuito que ves no lo tengas en cuenta, no es más que un
 mosfet que puede usarse para amplificar potencia
 
-![luz sala1](luz_s1.jpg)  
+![luz sala1](imag/luz_s1.jpg)  
 
 ### SALA 2 (espectro completo) Las ventajas y desventajas son las opuestas a la sala 1  
 
 Disipador hecho con chapas de latas y pasta termoconductora (Nota: hay que quitar la pintura con una lija para que disipe bien)
 
-![luz sala2](luz_s2.jpg)
+![luz sala2](imag/luz_s2.jpg)
 
 
-![chapas](chapas.jpg)
+![chapas](imag/chapas.jpg)
