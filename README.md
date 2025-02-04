@@ -77,4 +77,27 @@ Disipador hecho con chapas de latas y pasta termoconductora (Nota: hay que quita
 ![luz sala2](imag/luz_s2.jpg)
 
 
-![chapas](imag/chapas.jpg)
+![chapas](imag/chapas.jpg)  
+
+#### Nota: La app para conectar por bluetooth en android tiene que ser "Serial Bluetooth terminal" de kai-morich, es la que funciona y por suerte es software libre
+
+### Algunas de las variables del archivo variables.py que debes personalizar, son más las que debes revisar y ajustar
+
+|Variable|Valor|Descripción|
+|--|--|--|
+|SALA1|True, False|Habilitada sala 1 o Desabilitada|
+|SALA2|True, False|Habilitada sala 2 o Desabilitada|
+|SALA3|True, False|Habilitada sala 3 o Desabilitada|
+|SETAS_S1|True, False|Cultivo de setas en sala 1 si o no|
+|SETAS_S2|True, False|Cultivo de setas en sala 2 si o no||
+|SETAS_S3|True, False|Cultivo de setas en sala 3 si o no||
+|PWM_S1|True, False|luz, resistencia o ventilador a CC en sala 1 a regular||
+|PWM_S2|True, False|luz, resistencia o ventilador a CC en sala 2 a regular||
+|PWM_S3|True, False|luz, resistencia o ventilador a CC en sala 3 a regular||
+|TEMPERATURA_MAX|float|temperatura max de la sala 1, ej 25.4||
+|TEMPERATURA2_MAX|float|temperatura max de la sala 2, ej 24.3||
+|TEMPERATURA3_MAX|float|temperatura max de la sala 3, ej 24.1||
+|PASS_BT|string|el pass para acceder por bluetooth, hay que ponerlo deprisa, justo en el momento de conectar|
+|fase_s1|True, False|False para floración en sala 1, True para crecimiento|
+|fase_s2|True, False|False para floración en sala 2, True para crecimiento|
+|fase_s3|True, False|False para floración en sala 3, True para crecimiento|
